@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style2.css">
+    <title>Conta criada</title>
+</head>
+    <body>
+        <img src="../image/celular.png" alt="celular"> 
+        <h1>Parabens sua conta foi criada</h1>
+        <p>Esperamos que sua experiencia conosco seja gratificante<br>A Facesoccer esta a disposição para ajudar você <b>Treinador</b> com o que precisar entre em contato consoco</p>
+        <p>Entre em contato com a nossa equipe:<br> (XX) XXXXX-XXXX <br> email: seuemail@dominio.com</p><br>
+        <a href="../index.html"><input type="button" value="Voltar a tela inicial"></a>
+    
+    
+        <div>
+            <h3 id="DarkModetext"></h3>
+            <button onclick="darkMode()">Escuro</button>
+            <button onclick="lightMode()">Claro</button>
+        </div>
+        <script>
+            function darkMode() {
+            var element = document.body;
+            var content = document.getElementById("DarkModetext");
+            element.className = "dark-mode";
+            
+            }
+            function lightMode() {
+            var element = document.body;
+            var content = document.getElementById("DarkModetext");
+            element.className = "light-mode";
+            
+            }
+        </script>
+
+    </body>
+
+
+    
+
+</html>

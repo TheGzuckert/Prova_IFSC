@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head id="jogador">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/style2.css">
+  <title>Bem Vindo</title>
+</head>
+  <body>
+    <div>
+      <img src="../image/logoFacessocer.png" alt="logo-facessocer">
+      <h1>Bem-vindo</h1>
+      <div class="telaLogin">
+        <form>
+          <h2 id="bemVindo">Entre já:</h2>
+          <br>
+          <label class="login">Login:</label><br>
+          <br>
+          <input type="text" id="txtNome" name="txtName"><br>
+          <br>
+          <label class="login">Senha:</label><br>
+          <br>
+          <input type="password" id="senha" name="txtName"> <br>
+          <br>
+          <label  for="checksenha" id="checksenha" name="checksenha" value="senha">Deseja manter-se conectado?</label>
+          <input type="checkbox"><br>
+          <br>
+          <a href="./feed/PainelPrincipal.html"><input type="button" value="Entrar"></a>
+          <br>
+          <br>
+          <a href="./feed/register.html"><input type="button" value="Inscreva-se"></a>
+          <br>
+        </form>
+      </div>
+      <div>
+        <h3 id="ModoEscuro"></h3>
+        <button onclick="darkMode()">Escuro</button>
+        <button onclick="lightMode()">Claro</button>
+      </div>
+        <script>
+          function darkMode() {
+            var element = document.body;
+            var content = document.getElementById("ModoEscuro");
+            element.className = "dark-mode";
+          }
+          function lightMode() {
+            var element = document.body;
+            var content = document.getElementById("ModoEscuro");
+            element.className = "light-mode";
+          }
+        </script>
+      </div>
+    </div> 
+  </body>
+</html>

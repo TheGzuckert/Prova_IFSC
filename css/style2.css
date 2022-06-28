@@ -1,0 +1,9 @@
+.dark-mode {
+    background-image: linear-gradient(to right, rgb(19, 22, 24) , rgb(240, 33, 130));
+    color: white;
+}
+
+.light-mode {
+    background-image: linear-gradient(to right, rgb(89, 191, 250) , rgb(179, 224, 250));
+    color: black;
+}

@@ -1,0 +1,108 @@
+style {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+
+
+body {
+    padding: 25px;
+    background-image: linear-gradient(to right, rgb(19, 22, 24) , rgb(240, 33, 130));
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+i {
+    text-align: center;
+    padding: top 5px;
+    font-size: 30px;
+}
+
+#bemVindo{
+    text-align: center;
+    margin-top: 40px;
+}
+
+p {
+    text-align: center;
+    margin: auto;
+    max-width: 700px;
+    min-width: 300px;
+    margin-top: 58px;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+
+}
+
+.login {
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+img {
+    max-width:150px;
+    max-height:100px;
+    text-align: center;
+    margin: auto;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 19px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+
+input {
+    border-radius: 10px;
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+
+
+.txtNome {
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+}
+
+.listaAlunos{
+    padding-top: 30px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+    font-size: 20px;
+}
+
+td, th {
+    margin-top: 150px;
+	padding: 8px 15px;
+    font-size: 15px;
+}
+
+li {
+    font-size: 20px;
+}
+
+

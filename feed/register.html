@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/style2.css">
+  <title>Create Account</title>
+</head>
+<body>
+  <div>
+    <img src="../image/logoFacessocer.png" alt="logo-facessocer">
+    <h1>Cadastre-se</h1>
+
+    <form>
+      <label>
+        <label for="SeuNome">Nome ....</label>
+        <input type="text" required placeholder="Nome completo"><br> <br>
+        <label for="SeuNome">Login ....</label>
+        <input type="text" required placeholder="Crie um login"><br> <br>
+        <label for="email">Email.....</label>
+        <input type="email" id="email" required placeholder="SeuMelhor@Email.com"><br><br>
+        <label for="telefone">Telefone.</label>
+        <input type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX"><br> <br>
+        <br>
+        <a href="./AccontCreate.html"><input type="button" value="Registre-se"></a> 
+      </label>
+    </form>
+  </div>
+  <div>
+    <h3 id="DarkModetext"></h3>
+    <button onclick="darkMode()">Escuro</button>
+    <button onclick="lightMode()">Claro</button>
+  </div>
+  
+  <script>
+    function darkMode() {
+      var element = document.body;
+      var content = document.getElementById("DarkModetext");
+      element.className = "dark-mode";
+      
+    }
+    function lightMode() {
+      var element = document.body;
+      var content = document.getElementById("DarkModetext");
+      element.className = "light-mode";
+      
+    }
+  </script>
+</body>
+
+</html>
